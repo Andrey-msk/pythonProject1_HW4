@@ -5,13 +5,13 @@
    (выработка в часах * ставка в час) + премия.
     Для выполнения расчета для конкретных значений необходимо запускать скрипт с параметрами.
 '''
-# def cash():
-#     try:
-#         time = float(input('Выработка в часах '))
-#         salary = int(input('Ставка '))
-#         bonus = int(input('Премия '))
-#         res = time * salary + bonus
-#         print(f'заработная плата сотрудника  {res}')
-#     except ValueError:
-#         return print('Not a number')
-# cash()
+def cash():
+    try:
+        time = float(input('Выработка в часах '))
+        salary = int(input('Ставка '))
+        bonus = int(input('Премия '))
+        res = time * salary + bonus
+        print(f'заработная плата сотрудника  {res}')
+    except ValueError:
+        return print('Not a number')
+cash()
